@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>温柔乡</title>
+    <script>
+        // 判断苹果、安卓、pc
+        if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) { //判断iPhone|iPad|iPod|iOS
+            window.location.href = 'http://wap.5544xj.com/'
+        } else if (/(Android)/i.test(navigator.userAgent)) { //判断Android
+            window.location.href = 'http://wap.5544xj.com/'
+        } else { //pc
+            console.log('这是Pc端')
+        };
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
